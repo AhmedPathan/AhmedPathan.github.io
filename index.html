@@ -78,12 +78,13 @@
                             <label for="selectBranch">Select Branch</label>
 							<select class="form-control" id="selectBranch">
                                 <option default>Please select branch</option>
+                                <option>First Year Engg</option>
                                 <option>Computer</option>
-                                <option>ChE</option>
-                                <option>CE</option>
-                                <option>ME</option>
-                                <option>EE</option>
-								<option>ECE</option>
+                                <option>Civil</option>
+                                <option>IT</option>
+                                <option>Mechanical</option>
+								<option>Electrical</option>
+                                <option>EnTC</option>
                             </select>
                         </div>
 						
@@ -100,9 +101,10 @@
                             <label for="selectedResource">Select resource type</label>
 							<select class="form-control" id="selectedResource">
                                  <option default>Please select Resource type</option>
-                                <option>Video</option>
+                                <option>Youtube Videos</option>
                                 <option>Notes</option>
-                                <option>NPTEL</option>
+                                <option>NPTEL Videos</option>
+                                <option>Question Papers</option>
                             </select>
                         </div>
 
@@ -133,46 +135,78 @@
 					<script type="text/javascript">
 
 					var data = [
-                                          {
-                                            "semester": 3,
-                                            "branch": "Computer",
-                                            "subject": "JAVA",
-                                            "resourceType": "Video",
-                                            "resource": [
-                                              {
-                                                "name": "Economics and ethics",
-                                                "url": "https://youtube.com/"
-                                              },
-                                        	  {
-                                                "name": "Abstraction",
-                                                "url": "https://youtube.com/playlist?list=PLUhebcqFf6aHYUojqYufy5eXxLXVF6LyE "
-                                              }
-                                            ]
-                                          },
-                                          {
-                                            "semester": 3,
-                                            "branch": "Computer",
-                                            "subject": "OOPs",
-                                            "resourceType": "question papers",
-                                            "resource": [
-                                              {
-                                                "name": "pdf name"
-                                              }
-                                            ]
-                                          },
-                                          {
-                                            "semester": 3,
-                                            "branch": "Computer",
-                                            "subject": "PYTHON",
-                                            "resourceType": "Notes",
-                                            "resource": [
-                                              {
-                                                "name": "Data Structures Notes",
-                                        		"url": "Data Structures Notes 1.pdf"
-                                              }
-                                            ]
-                                          }
-                        ]
+                    {
+                    "semester": 3,
+                    "branch": "Computer",
+                    "subject": "Fundamentals of Data Structures",
+                    "resourceType": "Youtube Videos",
+                    "resource": [
+                      {
+                        "name": "Data structures and algorithms",
+                        "url": "https://youtube.com/playlist?list=PLUhebcqFf6aHYUojqYufy5eXxLXVF6LyE",
+                      },
+                      {
+                        "name": "Searching in data structures",
+                        "url": "https://youtube.com/playlist?list=PLqleLpAMfxGDyeIeas8D1zZ0xB5HD--Lh",
+                      },
+                      {
+                        "name": "Sorting in data structures",
+                        "url": "https://youtube.com/playlist?list=PLqleLpAMfxGCil0s21Y8kzUyPGrE0L0fi",
+                      }
+                    ]
+                  },
+                  {
+                    "semester": 3,
+                    "branch": "Computer",
+                    "subject": "Fundamentals of Data Structures",
+                    "resourceType": "NPTEL Videos",
+                    "resource": [
+                  {
+                    "name": "Introduction to Data Structures",
+                    "url": "https://nptel.ac.in/courses/106/102/106102064/",
+                  },
+                  {
+                    "name" : "Programming and Data Structures",
+                    "url": "https://nptel.ac.in/courses/106/105/106105085/",
+                  }
+                  ]},
+                  {
+                    "semester": 3,
+                    "branch": "Computer",
+                    "subject": "Fundamentals of Data Structures",
+                    "resourceType": "Question Papers",
+                    "resource": [
+                      {
+                        "name": "question paper 1",
+                        "url": "qp1.pdf",
+                    },
+                    {
+                        "name": "question paper 2",
+                        "url": "qp2.pdf",
+                    },
+                    {
+                        "name": "question paper 3",
+                        "url": "qp3.pdf",
+                    },
+                    {
+                        "name": "question paper 4",
+                        "url": "q4.pdf",
+                    }
+                    ]},
+                  {
+                    "semester": 3,
+                    "branch": "Computer",
+                    "subject": "Fundamentals of Data Structures",
+                    "resourceType": "Notes",
+                    "resource": [
+                      {
+                        "name": "Data Structures Notes",
+                        "url": "Data Structures Notes 1.pdf",
+                        
+                      }
+                    ]
+                  }
+                ]
 					
 					</script>
 					
